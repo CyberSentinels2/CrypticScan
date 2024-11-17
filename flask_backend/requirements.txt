@@ -1,5 +1,6 @@
 gvm-tools
 python-gvm
+flask
 flask-cors 
 jinja2
 pdfkit

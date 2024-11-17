@@ -91,11 +91,11 @@ The **CyberSentinels** team comprises the following contributors:
 
 ---
 
-## ⚖️ **Disclaimer**
+## ⚖️ **Legal Disclaimer**
 
-**CrypticScan** is intended for **educational purposes** only. Unauthorized penetration testing on any systems, networks, or web applications may be a violation of laws or regulations in your jurisdiction. Always ensure you have explicit written authorization before performing any security tests.
+**CrypticScan** is intended **solely for educational and ethical security testing purposes**. Unauthorized access to systems, networks, or applications, including penetration testing without explicit consent, is illegal and may result in severe legal consequences.
 
-**The developers of CrypticScan** bear no responsibility for any misuse or unauthorized activities conducted using this tool. Users are solely responsible for ensuring they have appropriate authorization prior to conducting tests.
+The developers of CrypticScan **disclaim all liability** for any unlawful or unauthorized activities conducted using this tool. **Users assume full responsibility** for any misuse or damage caused.
 
 ---
 

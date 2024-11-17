@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSentinels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="sidebar" aria-label="Main Navigation">
+        <div class="top-section">
+            <div class="logo-container">
+                <img src="assets/main_logo.png" alt="CyberSentinels Logo" class="logo-image">
+                <span class="company-name">CyberSentinels</span>
+            </div>
+            <button class="expand-button" aria-label="Toggle Sidebar">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/29cf8965461b67a282358d41770d58475613ed9ec1b53cbde4dce806ccfd03e8?apiKey=3607be849b3c4d1bb01fa7603fe41f64&" alt="" class="expand-icon">
+            </button>
+        </div>
+        <div class="main-navigation">
+            <ul class="nav-section">
+                <li class="nav-item">
+                    <a href="#" class="nav-item-inner">
+                        <span class="nav-icon">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c5a3136e3f0e4774a72671f3a31cd4a8581937ef9ea2bf3c45f23ff82a505fe0?apiKey=3607be849b3c4d1bb01fa7603fe41f64&" alt="" class="nav-icon-image">
+                        </span>
+                        <span class="nav-label">Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-item-inner">
+                        <span class="nav-icon">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/af788e4b7c771db687547b08d884d16cb2eaeb3accce9264d12090c231648824?apiKey=3607be849b3c4d1bb01fa7603fe41f64&" alt="" class="nav-icon-image">
+                        </span>
+                        <span class="nav-label">Vulnerability Scan</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-item-inner">
+                        <span class="nav-icon">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/13790694-c25c-436f-968a-cf3201c2f877?apiKey=3607be849b3c4d1bb01fa7603fe41f64&" alt="" class="nav-icon-image">
+                        </span>
+                        <span class="nav-label">Tools</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-item-inner">
+                        <span class="nav-icon">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/00240c5930f1299899eb33eb321d18618510a144fbd72796696165a4ac2062f0?apiKey=3607be849b3c4d1bb01fa7603fe41f64&" alt="" class="nav-icon-image">
+                        </span>
+                        <span class="nav-label">Penetration Tools</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-item-inner">
+                        <span class="nav-icon">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a8e75f91918e787cc9b8cc89dede554386e7f378a79afdac6624b7b213c44052?apiKey= 3607be849b3c4d1bb01fa7603fe41f64&" alt="" class="nav-icon-image">
+                        </span>
+                        <span class="nav-label">Reports</span>
+                    </a>
+                </li>
+            </ul>
+            <hr class="divider">
+            <ul class="nav-section secondary-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-item-inner">
+                        <span class="nav-icon">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/880a9cfd-3e7d-4ce3-97f6-9c94a9ee4286?apiKey=3607be849b3c4d1bb01fa7603fe41f64&" alt="" class="nav-icon-image">
+                        </span>
+                        <span class="nav-label">Notifications</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-item-inner">
+                        <span class="nav-icon">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a7e66cf63972a456f139b94ab498e7dad32a1f846b93bf3731aea5166df3ada1?apiKey=3607be849b3c4d1bb01fa7603fe41f64&" alt="" class="nav-icon-image">
+                        </span>
+                        <span class="nav-label">Settings</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-item-inner">
+                        <span class="nav-icon">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b9e42c1eec8236a102de9e4580e6eae51e23d2031478e175fadd974b3faa1b8e?apiKey=3607be849b3c4d1bb01fa7603fe41f64&" alt="" class="nav-icon-image">
+                        </span>
+                        <span class="nav-label">Support</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <h2>Scan Vulnerability</h2>
+        <input type="text" placeholder="Enter IP address here">
+        <div>
+            <button id="startAttackBtn" class="start"><i class="fas fa-bolt"></i> START SCANNING</button>
+            <button id="stopBtn" class="stop" style="display:none;"><i class="fas fa-stop"></i> STOP SCANNING</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>

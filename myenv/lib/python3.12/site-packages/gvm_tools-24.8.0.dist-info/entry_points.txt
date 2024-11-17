@@ -1,0 +1,5 @@
+[console_scripts]
+gvm-cli=gvmtools.cli:main
+gvm-pyshell=gvmtools.pyshell:main
+gvm-script=gvmtools.script:main
+

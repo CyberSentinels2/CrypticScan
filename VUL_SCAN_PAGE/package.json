@@ -1,0 +1,11 @@
+{
+  "name": "vul_scan",
+  "version": "1.0.0",
+  "description": "scan for vulnerability",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Falcon",
+  "license": "ISC"
+}

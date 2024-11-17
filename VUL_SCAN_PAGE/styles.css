@@ -1,0 +1,242 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure full height */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+body {
+    width: 100%; /* Use full width */
+    font-family: 'Arial', sans-serif;
+    background-image: url(assets/vulnerability_scan\ bg.png); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the whole area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.main-content {
+    margin-left: 10px;
+    padding: 40px;
+    height: calc(100vh - 80px); /* Adjust height to fit within the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto; /* Allow scrolling within main content if needed */
+}
+
+/* .................. */
+
+.main-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.main-content input[type="text"] {
+    width: 400px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.main-content button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.main-content button.start,
+.main-content button.stop {
+    background-color: #E0E0E0;
+    color: #000000;
+}
+
+.main-content button i {
+    margin-right: 5px;
+}
+
+.background-shape {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(135deg, #6A0572, #3A0CA3);
+    clip-path: polygon(100%  0, 100% 100%, 0 100%);
+}
+
+.sidebar {
+    border-radius: 16px;
+
+    box-shadow: 0  16px 44px rgba(0, 0, 0, 0.07);
+    display: flex;
+    width: 280px;
+    flex-direction: column;
+    height: 100vh;
+    transition: width 0.3s ease;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar.collapsed {
+    width: 80px;
+}
+
+.top-section {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 24px;
+}
+
+.logo-container {
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    overflow: hidden;
+    color: #f8fafc;
+    white-space: nowrap;
+    font: 600 20px/1.4 Poppins, sans-serif;
+}
+
+.logo-image {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 32px;
+}
+
+.company-name {
+    font-feature-settings: "liga" off, "clig" off;
+    transition: opacity 0.3s ease;
+}
+
+.sidebar.collapsed .company-name {
+    opacity: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+.expand-button {
+    border-radius: 50%;
+    background-color: #0f172a;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    right: 39px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 4px;
+    border: 1px solid rgba(226, 232, 240, 0.1);
+    cursor: pointer;
+}
+
+.expand-icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 16px;
+    transition: transform 0.3s ease;
+}
+
+.sidebar.collapsed .expand-icon {
+    transform: rotate(180deg);
+}
+
+.main-navigation {
+    display: flex;
+    margin-top: 24px;
+    width: 100%;
+    flex-direction: column;
+    flex: 1;
+}
+
+.nav-section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 8px;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-item {
+    border-radius: 99px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 12px;
+    overflow: hidden;
+    padding: 12px 16px;
+    margin-top: 4px;
+}
+
+.nav-item:first-child {
+    margin-top: 0;
+}
+
+.nav-item-inner {
+    align-self: stretch;
+    display: flex;
+    width: 100%;
+    gap: 12px;
+    flex: 1;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-icon {
+    align-self: start;
+    display: flex;
+    align-items: start;
+    width: 20px;
+}
+
+.nav-icon-image {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+}
+
+.nav-label {
+    color: #a3a7ac;
+    font-feature-settings: "liga" off, "clig" off;
+    flex: 1;
+    font: 500 14px/1 Poppins, sans-serif;
+    transition: opacity 0.3s ease;
+}
+
+.sidebar.collapsed .nav-label {
+    opacity: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+.divider {
+    min-height: 1px;
+    margin: 24px 0;
+    width: 100%;
+    border: none;
+    border-top: 1px solid rgba(226, 232, 240, 0.1);
+}
+
+.secondary-nav {
+    margin-top: 24px;
+}

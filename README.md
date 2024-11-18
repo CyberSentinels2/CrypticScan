@@ -1,6 +1,6 @@
 # 🔒 CrypticScan - Automated Penetration Testing Tool
 
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
 
 ---
 
@@ -107,7 +107,7 @@ For any questions or feedback, feel free to reach out to the project contributor
 
 ## 📄 **License**
 
-This project is licensed under the **MIT License**. For detailed terms, refer to the [LICENSE](LICENSE) file.
+This project is licensed under the **Apache License 2.0**. For detailed terms, refer to the [LICENSE](LICENSE) file.
 
 ---
 

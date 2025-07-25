@@ -83,11 +83,11 @@ Follow these steps to start using **CrypticScan**:
 
 The **CyberSentinels** team comprises the following contributors:
 
-- **Bhavana Pradeep** – [GitHub Profile](https://github.com/username1)
-- **Faya Yasmin** – [GitHub Profile](https://github.com/username2)
-- **Khadeejath Mufeeda** – [GitHub Profile](https://github.com/username3)
-- **Fathimath Misla** – [GitHub Profile](https://github.com/username4)
-- **Muad Umer** – [GitHub Profile](https://github.com/username5)
+- **Bhavana Pradeep** – [GitHub Profile]
+- **Faya Yasmin** – [GitHub Profile]
+- **Khadeejath Mufeeda** – [GitHub Profile]
+- **Fathimath Misla** – [GitHub Profile]
+- **Muad Umer** – [GitHub Profile}
 
 ---
 

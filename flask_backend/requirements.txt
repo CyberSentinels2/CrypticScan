@@ -1,9 +1,7 @@
 gvm-tools
 python-gvm
-flask
-flask-cors 
-jinja2
+Flask
+Jinja2
 pdfkit
-flask-sqlalchemy
-models 
+Flask-SQLAlchemy
 gunicorn

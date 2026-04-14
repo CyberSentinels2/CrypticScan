@@ -6,13 +6,13 @@ function createWindow () {
         width: 1250,
         height: 800,
         webPreferences: {
-            preload: path.join(__dirname, 'renderer.js'),
             contextIsolation: true,
-            enableRemoteModule: false,
+            nodeIntegration: false,
+            sandbox: true,
         }
     });
 
-    win.loadFile('index.html');
+    win.loadFile(path.join(__dirname, 'index.html'));
     win.setMenuBarVisibility(false);
 }
 

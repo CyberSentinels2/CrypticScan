@@ -1,0 +1,4 @@
+electron_app/VUL_SCAN_PAGE/node_modules/
+**/__pycache__/
+**/*.pyc
+myenv/

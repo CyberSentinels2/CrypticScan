@@ -117,4 +117,5 @@ Here’s a screenshot of the **Vulnerability Scan Page** interface:
 
 ![Vulnerability Scan GUI](https://github.com/user-attachments/assets/0315a19b-7307-47fb-96b6-c33931c95801)
 
-
+## Second Version of the Project
+<img width="1920" height="1165" alt="apt_tool" src="https://github.com/user-attachments/assets/9e3a2cea-95a3-48fa-839d-f6bc77d64e90" />
